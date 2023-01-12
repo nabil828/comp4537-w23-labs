@@ -1,9 +1,10 @@
-# Lab 2 - Client To Server Communication
+# Lab 2 - GPT-4 Chatbot
 <blockquote>
 Demo - https://inspiring-gumption-7312b7.netlify.app/
 </blockquote>
 
-# Intro
+# Intro - Client To Server Communication
+
 In web development, client-to-server communication refers to the process of a client (e.g. a web browser) sending a request to a server, and the server responding with a response. This process is also known as "making a request" or "sending a request". The communication between the client and server is typically done using the HTTP (Hypertext Transfer Protocol) or HTTPS (HTTP Secure) protocol.
 
 When a user makes a request by typing a URL in their web browser, the browser sends a request to the server, asking for the resource located at that URL. The server then responds with the requested resource, which can be in the form of HTML, CSS, JavaScript, JSON, or XML, etc. The browser then renders the resource and displays it to the user.
@@ -97,7 +98,7 @@ Keep in mind that the numbers API is a free service, you may reach the rate limi
 
 
 
-# Labwork: GTP-4 Chatbot 😅
+# Labwork: GPT-4 Chatbot 😅
 ## Backend And Server-To-Server Communication
 Here's a tutorial on how to use the Numbers API ([http://numbersapi.com/](http://numbersapi.com/)) to build a simple chatbot:
 
