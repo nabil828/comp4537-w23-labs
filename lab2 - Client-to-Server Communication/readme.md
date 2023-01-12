@@ -102,12 +102,13 @@ Keep in mind that the numbers API is a free service, you may reach the rate limi
 ## Backend And Server-To-Server Communication
 Here's a tutorial on how to use the Numbers API ([http://numbersapi.com/](http://numbersapi.com/)) to build a simple chatbot:
 
-1.  Create a new Node.js project and install the `express` and `body-parser` packages. These packages will be used to create the chatbot's server and handle incoming requests.
+1.  Create a new Node.js project and install the `express` package. This packages will be used to create the chatbot's server and handle incoming requests.
 
 
 
-```js
-npm init npm install express body-parser
+```
+npm init 
+npm install express
 ```
 
 
@@ -117,7 +118,7 @@ npm init npm install express body-parser
 
 ```js
 const express = require('express');
- const bodyParser = require('body-parser');
+
 ```
 
 
@@ -127,7 +128,8 @@ const express = require('express');
 
 ```js
 const app = express(); 
-app.use(bodyParser.json());
+app.use(express.json()); // read JSON BODY
+app.use(express.urlencoded({ extended: true })); // read URL enoded body
 ```
 
 
