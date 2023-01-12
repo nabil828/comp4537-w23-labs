@@ -129,7 +129,7 @@ const express = require('express');
 ```js
 const app = express(); 
 app.use(express.json()); // read JSON BODY
-app.use(express.urlencoded({ extended: true })); // read URL enoded body
+app.use(express.urlencoded({ extended: true })); // read URL encoded body
 ```
 
 
