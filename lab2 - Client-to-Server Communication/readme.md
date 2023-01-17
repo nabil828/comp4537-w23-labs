@@ -1,4 +1,4 @@
-# Lab 2 - GPT-4 Chatbot
+# Lab 2 - GPT-4 Chatbot 
 <blockquote>
 Demo - https://inspiring-gumption-7312b7.netlify.app/
 </blockquote>
